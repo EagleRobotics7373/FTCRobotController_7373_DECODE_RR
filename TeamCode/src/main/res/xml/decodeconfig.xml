@@ -14,6 +14,7 @@
         <LynxModule name="Expansion Hub" port="2">
             <Matrix12vMotor name="leftLauncher" port="0" />
             <Matrix12vMotor name="rightLauncher" port="1" />
+            <Matrix12vMotor name="intake" port="2" />
 <!--            <Matrix12vMotor name="catapultWinch" port="2" />-->
             <LynxEmbeddedIMU name="imu" port="0" bus="0"/>
         </LynxModule>
